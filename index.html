@@ -1,13 +1,34 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>flash-card</title>
-  </head>
-  <body>
-    <div id="app"></div>
-    <script type="module" src="/src/main.js"></script>
-  </body>
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="src/style.css"/>
+  <script type="module" src="src/main.js"></script>
+  <title>flash-card</title>
+</head>
+<body>
+  <header class="header">
+    <h1>Флеш-карточки</h1>
+  </header>
+
+  <main class="container">
+    <h2>Название набора</h2>
+
+    <div class="card" id="flashcard">
+      <div class="card-inner">
+        <div class="card-front">
+          <p>карточка 1</p>
+        </div>
+        <div class="card-back">
+          <p>Определение</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="controls">
+      <p>элементы управления</p>
+    </div>
+  </main>
+</body>
 </html>
